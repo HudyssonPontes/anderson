@@ -246,6 +246,20 @@ input {
     transform: translateY(-50%);
 }
 
+
+.div_imagem_logotipo{
+    align-self: center;
+}
+.div_imagem_logotipo img{
+    border-radius:10px;
+}
+.titulo_index{
+    font-size: 6rem;
+    line-height: 6rem;
+}
+
+
+
 @media (max-width: 768px) {
     .container {
         width: 750px;
