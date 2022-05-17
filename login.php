@@ -12,15 +12,20 @@
 </head>
 <body>
 <div class="limiter" id="login">
-        <div class="container-login100" style="background-image:url(https://image.freepik.com/free-photo/happy-woman-doing-online-shopping-home_329181-4301.jpg)">
+        <div class="container_login" style="
+        background-image:url(https://img.freepik.com/fotos-gratis/corretor-masculino-usando-estatisticas-de-troca-de-forex-em-varios-monitores-trabalhando-com-graficos-de-mercado-e-vendas-de-acoes-em-tempo-real-participacao-nos-lucros-do-fundo-de-hedge-para-comprar-e-vender-dinheiro-tiro-de-tripe_482257-37652.jpg?t=st=1652723110~exp=1652723710~hmac=34022ef0549dee94fd58531206655037f8032f40ad0b67b0603c60e7ec56853a&w=900)">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6"></div>
                     <div class="col-md-5 col-md-offset-1">
-                        <div class="login_topimg">
+                        <div class="login_topimg" style="
+                        background: #91b3d1 url(https://image.freepik.com/free-vector/cyber-data-security-online-concept-illustration-internet-security-information-privacy-protection_1150-37330.jpg) no-repeat;
+                        background-size: auto;
+                        background-position: center;
+                        ">
                         </div>
-                        <div class="wrap-login100">
-                            <form class="login100-form validate-form">
+                        <div class="login_container_formulario">
+                            <form class="">
                                 <h5 class="text-center text-uppercase"> Login </h5> 
                                 <p class="text-center">Insira suas credenciais</p>
                                 <div class="input_login my-3">
@@ -31,8 +36,8 @@
                                 </div>
                                 <div class="flex-sb-m w-full p-b-30">
                                     <div class="contact100-form-checkbox">
-                                        <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
-                                        <label class="label-checkbox100" for="ckb1">
+                                        <input class="input_checkbox" id="ckb1" type="checkbox" name="remember-me">
+                                        <label class="label_checkbox" for="ckb1">
                                             Lembrar-me
                                         </label>
                                     </div>
@@ -42,7 +47,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="container-login100-form-btn p-t-25"> <button class="login100-form-btn"> Login </button> </div>
+                                <button class="btn btn-primary w-100 text-uppercase"> Entrar </button>
                             </form>
                         </div>
                     </div>
