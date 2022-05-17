@@ -47,7 +47,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <button class="btn btn-primary w-100 text-uppercase"> Entrar </button>
+                                <button class="btn botao_verde w-100 text-uppercase"> Entrar </button>
                             </form>
                         </div>
                     </div>
