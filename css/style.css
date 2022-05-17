@@ -315,6 +315,39 @@ a:hover{
     color: white;
     transform: .5s;
 }
+.botao_verde_contorno{
+    background: transparent;
+    border: solid 1px #1cef94;
+    font-weight: bold;
+    transition: .5s;
+}
+.botao_verde_contorno.active{
+    background: transparent;
+    background: #1cef94;
+    font-weight: bold;
+    pointer-events: none;
+    cursor: default;
+    color: white;
+    transition: .5s;
+}
+.botao_verde_contorno.active a{
+    pointer-events: none;
+    cursor: default;
+    color: white !important;
+    transition: .5s;
+}
+.botao_verde_contorno:hover{
+    border: solid 1px #1cef94;
+    background: #18cc7e;
+    font-weight: bold;
+    color: white;
+    transition: .5s;
+}
+.botao_verde_contorno:hover a{
+    color: white !important;
+    transition: .5s;
+}
+
 .div_cards_home i{
     color: #1cef94;
     transition: all .5s;
