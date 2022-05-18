@@ -367,6 +367,50 @@ a:hover{
     transition: all .5s;
 }
 
+.icone_atualizado_menu_dashboards{
+    color: white;
+    background: #7ad439;
+    padding: 3px;
+    border-radius: 4px;
+    font-size: .9rem;
+}
+
+.multiselect {
+    min-width:100px;
+}
+.multiselect .checkboxes{
+    position: absolute;
+    min-width: 100px;
+    background: white;
+    display: none;
+    border: 1px #dadada solid;
+    z-index: 2;
+}
+.multiselect label{
+    margin: 0;
+}
+.multiselect label input{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.selectBox {
+    position:relative;
+}
+.selectBox select {
+    width: 100%;
+}
+.overSelect {
+    position: absolute;
+    left:0; right:0; top:0; bottom:0;
+}
+.multiselect .checkboxes label {
+    display: block;
+}
+.multiselect .checkboxes label:hover {
+    background-color: #eee;
+}
+
 @media (max-width: 768px) {
     .container {
         width: 750px;
