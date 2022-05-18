@@ -1,6 +1,7 @@
 <?php require_once("topo.php") ?>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="row">
         <div class="col-md-2 div_imagem_logotipo">
             <a href="#" class="text-dark">
@@ -14,6 +15,9 @@
                 </div>
             </a>
         </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="col-md-5 pl-0">
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav menu_dashboards">
@@ -99,14 +103,91 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-3">
+                    <label for="amount">Dia: </label>
+	                <input type="text" class="text-left" id="amount" readonly style="border:0; background: transparent; max-width: 60px;">
+                    <div id="slider-range" class="mt-2"></div>
+                </div>
             </div>
         </div>
     </div>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  
 </nav>
+<div class="container-fluid bg-light py-4">
+    <div class="row">
+        <div class="col">
+            <div class="card_estatistica_menu_dashboard">
+                <h5>Faturamento</h5>
+                <p class="">
+                    R$2,10 Mi
+                </p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card_estatistica_menu_dashboard">
+                <h5>N° de vendas</h5>
+                <p class="">
+                    13 Mil
+                </p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card_estatistica_menu_dashboard">
+                <h5>Custo</h5>
+                <p class="">
+                    R$1,22 Mi
+                </p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card_estatistica_menu_dashboard">
+                <h5>Frete</h5>
+                <p class="">
+                    R$45,72 Mil
+                </p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card_estatistica_menu_dashboard">
+                <h5>Margem</h5>
+                <p class="">
+                    R$845,19 Mil
+                </p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card_estatistica_menu_dashboard">
+                <h5>Margem</h5>
+                <p class="">
+                    40,2%
+                </p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card_estatistica_menu_dashboard">
+                <h5>Total Médio</h5>
+                <p class="">
+                    R$160,51
+                </p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card_estatistica_menu_dashboard">
+                <h5>Itens Vendidos</h5>
+                <p class="">
+                    16 Mil
+                </p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card_estatistica_menu_dashboard">
+                <h5>Itens/ Pedido</h5>
+                <p class="">
+                    1,2
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 <script>
 var expanded = false;
