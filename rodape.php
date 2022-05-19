@@ -2,6 +2,7 @@
 <script type="text/javascript" src="js/jquery-ui.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/slick.js"></script>
+<script type="text/javascript" src="js/canvasjs.min.js"></script>
 <script>
 	$( function() {
 		$( "#slider-range" ).slider({

@@ -174,16 +174,6 @@ input {
 *:focus::placeholder {
     opacity: 0;
 }
-.lnr {
-    speak: none;
-    font-style: normal;
-    font-weight: 400;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
 .flex-sb-m {
     display: -webkit-box;
     display: -webkit-flex;
@@ -449,6 +439,28 @@ a:hover{
     font-size: 1rem;
 }
 .card_estatistica_menu_dashboard p{
+    font-size: .9rem;
+}
+
+.div_containers_itens_dashboard{
+    padding:20px 10px;
+    background: white;
+    border-radius: .25rem;
+}
+
+.div_containers_itens_dashboard .tabela_dashboard{
+    max-height: 305px;
+    overflow-y: auto;
+}
+.div_containers_itens_dashboard tr > td, .div_containers_itens_dashboard tr > th{
+    text-align: right;
+}
+.div_containers_itens_dashboard tr > td:first-child, .div_containers_itens_dashboard tr > th:first-child{
+    text-align: left;
+}
+
+.div_containers_itens_dashboard .table th, .div_containers_itens_dashboard .table td{
+    padding:.5rem;
     font-size: .9rem;
 }
 
