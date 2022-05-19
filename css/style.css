@@ -449,7 +449,8 @@ a:hover{
 }
 
 .div_containers_itens_dashboard .tabela_dashboard{
-    max-height: 305px;
+    max-height: 365px;
+    min-height: 365px;
     overflow-y: auto;
 }
 .div_containers_itens_dashboard tr > td, .div_containers_itens_dashboard tr > th{
