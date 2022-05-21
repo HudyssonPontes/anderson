@@ -479,7 +479,19 @@ a:hover{
 .tabela_dashboard.table-responsive thead tr *{
     vertical-align: middle;
 }
-
+.tabela_estoque tr>th:first-child{
+    min-width: 250px;
+    text-align: center;
+}
+.tabela_estoque tr th, .tabela_estoque tr td{
+    text-align: center;
+}
+.tabela_estoque tr td:nth-child(4),.tabela_estoque tr td:nth-child(5),.tabela_estoque tr td:nth-child(6),.tabela_estoque tr td:nth-child(8){
+    background:#e9ecef ;
+}
+.tabela_estoque tr td:nth-child(10), .tabela_estoque tr th:nth-child(10){
+    background: #b9f8df !important;
+}
 .bar {
     background: #18cc7e;
     height: 35px;
