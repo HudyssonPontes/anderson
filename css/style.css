@@ -492,6 +492,11 @@ a:hover{
 .tabela_estoque tr td:nth-child(10), .tabela_estoque tr th:nth-child(10){
     background: #b9f8df !important;
 }
+.tabela_estoque thead th{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
 .bar {
     background: #18cc7e;
     height: 35px;
