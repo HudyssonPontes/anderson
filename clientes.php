@@ -90,6 +90,149 @@
         </div>
     </div>
     <div class="col-md-4">
+    <div class="div_containers_itens_dashboard ">
+                <h5>Top 10 Clientes (Por Faturamento)</h5>
+                <div class="tabela_dashboard">
+                    <table class="table tabela_marketplace">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col">Cliente</th>
+                                <th scope="col">Faturamento</th>
+                                <th scope="col">Vendas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cliente 1</td>
+                                <td>R$1,119,73</td>
+                                <td>11</td>
+                            </tr>
+                            <tr>
+                                <td>Cliente 2</td>
+                                <td>R$1,118,80</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>Cliente 3</td>
+                                <td>R$1,121,18</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>Cliente 4</td>
+                                <td>R$1,049,10</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>Cliente 5</td>
+                                <td>R$929,70</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>Cliente 6</td>
+                                <td>R$891,96</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>Cliente 7</td>
+                                <td>R$1.549,40</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>Cliente 8</td>
+                                <td>R$1.399,90</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Cliente 9</td>
+                                <td>R$1.022,72</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Cliente 10</td>
+                                <td>R$899,73</td>
+                                <td>1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+    <div class="div_containers_itens_dashboard ">
+                <h5>Top 10 Cidades (Por Faturamento)</h5>
+                <div class="tabela_dashboard">
+                    <table class="table tabela_marketplace">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col">Cidade</th>
+                                <th scope="col">Faturamento</th>
+                                <th scope="col">Vendas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Belo Horizonte - MG</td>
+                                <td>R$10,317,59</td>
+                                <td>41</td>
+                            </tr>
+                            <tr>
+                                <td>São Paulo - SP</td>
+                                <td>R$9.525,02</td>
+                                <td>44</td>
+                            </tr>
+                            <tr>
+                                <td>Rio de Janeiro - RJ</td>
+                                <td>R$3.867,40</td>
+                                <td>18</td>
+                            </tr>
+                            <tr>
+                                <td>Contagem - MG</td>
+                                <td>R$2.112,69</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>Brasilia - DF</td>
+                                <td>R$1.867,81</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>Tocantins - MG</td>
+                                <td>R$1.539,40</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>Barueri - SP</td>
+                                <td>R$1.255,42</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>Maringá - PR</td>
+                                <td>R$1.232,42</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>Florianópolis - SC</td>
+                                <td>R$1.052,31</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>Nova Alvorada do Sul - MS</td>
+                                <td>R$1.049,10</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>Blumenau - SC</td>
+                                <td>R$1.034,12</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>Osasco - SP</td>
+                                <td>R$1.018,28</td>
+                                <td>3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <script>
